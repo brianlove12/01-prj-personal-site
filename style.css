@@ -8,12 +8,30 @@ body {
 }
 
 section {
-	background: #c28f66; /* White background for sections */
-	margin: 20px auto; /* Space around sections */
+	background: #c28f66; /* Section background */
+	margin: 20px auto;
 	padding: 20px;
-	max-width: 600px; /* Keeps content easy to read */
-	border-radius: 8px; /* Rounded corners */
-	box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow */
+	max-width: 600px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Center content in the welcome section */
+#welcome {
+	text-align: center;
+}
+
+/* Style and resize the profile photo */
+.profile-photo {
+	width: 150px; /* Adjust size as needed */
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%; /* Makes the photo round */
+	display: block;
+	margin: 0 auto 16px auto; /* Center and add space below */
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+	border: 3px solid #fff;
+}
 }
 
 h1, h2, h3 {
