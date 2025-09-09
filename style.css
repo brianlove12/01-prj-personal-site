@@ -1,1 +1,47 @@
-/* Add you CSS here */
+/* Simple CSS for Portfolio Website */
+
+body {
+	font-family: Arial, sans-serif; /* Easy-to-read font */
+	background-color: #f9f9f9; /* Light background color */
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background: #fff; /* White background for sections */
+	margin: 20px auto; /* Space around sections */
+	padding: 20px;
+	max-width: 600px; /* Keeps content easy to read */
+	border-radius: 8px; /* Rounded corners */
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Soft shadow */
+}
+
+h1, h2, h3 {
+	color: #333; /* Darker text for headings */
+}
+
+ul {
+	padding-left: 20px; /* Indent list items */
+}
+
+.project-list {
+	margin-top: 10px;
+}
+
+.project {
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: #fafafa;
+}
+
+a {
+	color: #007acc; /* Blue links */
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* You can add more styles as you learn! */
