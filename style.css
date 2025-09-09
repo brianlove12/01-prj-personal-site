@@ -8,7 +8,7 @@ body {
 }
 
 section {
-	background: #fff; /* White background for sections */
+	background: #c28f66; /* White background for sections */
 	margin: 20px auto; /* Space around sections */
 	padding: 20px;
 	max-width: 600px; /* Keeps content easy to read */
@@ -33,7 +33,7 @@ ul {
 	padding: 10px;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	background: #fafafa;
+	background: #eeb17ef1;
 }
 
 a {
