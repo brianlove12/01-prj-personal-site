@@ -1,8 +1,22 @@
+/* Style and center the laptop image in About Me section */
+.about-photo {
+	display: block;
+	margin: 0 auto 16px auto; /* Center and add space below */
+	width: 180px; /* Adjust size as needed */
+	height: auto;
+	border-radius: 12px; /* Slightly rounded corners */
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
 /* Simple CSS for Portfolio Website */
 
 body {
-	font-family: Arial, sans-serif; /* Easy-to-read font */
-	background-color: #f9f9f9; /* Light background color */
+	font-family: 'Optima', 'Book Antiqua', Optima, serif; /* Book Antiqua font for a classic look */
+	/* Set a wallpaper image as the background */
+	background-image: url('img/hero-bg.jpg');
+	background-size: cover; /* Make the image cover the whole page */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Don't repeat the image */
+	background-attachment: fixed; /* Keep the wallpaper fixed when scrolling */
 	margin: 0;
 	padding: 0;
 }
@@ -30,10 +44,11 @@ section {
 	display: block;
 	margin: 0 auto 16px auto; /* Center and add space below */
 	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-	border: 3px solid #fff;
-}
+	border: 3px solid #e6ecec;
 }
 
+
+/* Headings in dark brown */
 h1, h2, h3 {
 	color: #333; /* Darker text for headings */
 }
@@ -47,7 +62,7 @@ ul {
 }
 
 .project {
-	border: 1px solid #e0e0e0;
+	border: 0px solid #e0e0e0;
 	padding: 10px;
 	margin-bottom: 10px;
 	border-radius: 5px;
