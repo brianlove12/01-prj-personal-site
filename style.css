@@ -1,3 +1,49 @@
+.project-box h3, .project-box p {
+	font-size: 1.22em; /* Unified font size for headings */
+	font-family: 'Optima', 'Book Antiqua', Optima, serif;
+	color: #4b2e13;
+}
+/* Style for project buttons */
+
+/* Style for project buttons - tan background and brown text */
+
+.project-box {
+	display: block;
+	width: 100%;
+	background-color: #c28f66; /* Tan color similar to section background */
+	color: #4b2e13; /* Brown text */
+	border: none;
+	border-radius: 8px;
+	padding: 12px;
+	margin: 8px 16px 8px 0; /* More space on right side */
+	text-align: left;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	text-decoration: none; /* Remove underline for <a> buttons */
+	font-family: 'Optima', 'Book Antiqua', Optima, serif; /* Match all project boxes font */
+}
+
+/* Make the button color lighter tan when hovered */
+.project-box:hover {
+	background-color: #eeb17e; /* Lighter tan on hover */
+	text-decoration: none; /* No underline on hover */
+}
+
+/* Make sure headings and paragraphs inside buttons look normal */
+
+/* Make sure headings and paragraphs inside buttons look normal and brown */
+.project-box h3 {
+	margin: 0 0 8px 0;
+	font-size: 1.22em; /* Unified font size for all project headings */
+	font-family: 'Optima', 'Book Antiqua', Optima, serif;
+	color: #4b2e13; /* Brown heading */
+}
+.project-box p {
+	margin: 0;
+	font-size: 1.08em; /* Unified font size for all project paragraphs */
+	font-family: 'Optima', 'Book Antiqua', Optima, serif;
+	color: #4b2e13; /* Brown paragraph */
+}
 /* Simple navigation bar styles */
 .navbar {
 	background: #333;
@@ -97,7 +143,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: none; /* Remove underline on hover for all links */
 }
 
 /* You can add more styles as you learn! */
