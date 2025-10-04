@@ -93,7 +93,7 @@ body {
 section {
 	background: #c28f66; /* Section background */
 	margin: 20px auto;
-	padding: 20px;
+	padding: 20px 40px; /* More left and right padding for roomy boxes */
 	max-width: 600px;
 	border-radius: 8px;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
